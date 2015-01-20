@@ -1,0 +1,40 @@
+{
+  "name": "skynology",
+  "version": "0.1.0",
+  "description": "Node wrapper for Skynology API",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:skynology/nodejs-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skynology/nodejs-sdk/issues"
+  },
+  "keywords": [
+    "mbaas",
+    "cloud",
+    "storage",
+    "api",
+    "skynology",
+    "paas"
+  ],
+  "author": "skynology.com",
+  "contributors": [
+    {
+    }
+  ],
+  "engines": [
+    "node >= 0.10.0"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "MD5": "~1.2.1",
+    "request": "~2.47.0",
+    "node-localstorage": "~0.3.4",
+    "mkdirp": "~0.5.0"
+  },
+  "devDependencies": {
+    "should": "3.3.2"
+  },
+  "license": "MIT"
+}
